@@ -25,8 +25,8 @@ commander() {
     
     # A
     
-    echo "1. Update the system with apt: apt update" 
-    echo "2. Update the system with apptitude: apttitude update" 
+    echo "1.  Update the system with apt: apt update" 
+    echo "2.  Update the system with apptitude: apttitude update" 
     
     # B
     
@@ -43,8 +43,8 @@ commander() {
     
     echo "8.  Display free disk space: df"
     echo "9.  Color setup for 'ls': dircolors" 
-    echo "10.  Print kernel & driver messages: dmesg"
-    echo "11.  Estimate file space usage: du"
+    echo "10. Print kernel & driver messages: dmesg"
+    echo "11. Estimate file space usage: du"
     
     # E
     
@@ -63,7 +63,7 @@ commander() {
     
     # H
     
-    echo "18. Print or set system name: hostname"
+    echo "18  Print or set system name: hostname"
     echo "19. Hibernate the computer: hibernate"
     
     # I
@@ -303,7 +303,7 @@ case $choice in
   
   58) echo $(zsh);;
   59) commander;;
-  60) echo "\n[!] Bye ($(date))"
+  60) echo "\n[!] Exiting at: ($(date))"
       exit;;
       
   *) echo "$ Invalid option";;
